@@ -13,5 +13,15 @@ namespace MovieLibrary.Models
         {
             return $"Movie: {Title}, {Genres}";
         }
+
+        //public class MovieMap : ClassMap<Movie>
+        //{
+        //    public MovieMap()
+        //    {
+        //        Map(m => m.MovieId).Index(0).Name("movieId");
+        //        Map(m => m.Title).Index(1).Name("title");
+        //        Map(m => m.Genres).Index(2).Name("genres");
+        //    }
+        //}
     }
 }
